@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets*.tfvars
+
+# Node
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Backups
+*.backup
+*.bak
+
+# Logs
+*.log
+
+# OS
+.DS_Store
